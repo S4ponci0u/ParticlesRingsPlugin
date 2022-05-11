@@ -1,0 +1,14 @@
+name: Particles
+version: '${project.version}'
+main: particles.particles
+api-version: 1.18
+prefix: [ RINGS ]
+authors: [ S4ponci0u ]
+description: A plugin for a simple command
+website: s4ponci0u.ml
+commands:
+  ring:
+    description: Spawn Particles
+    usage: /<command>
+    aliases: radiumparticles, rpt, rng
+    permission: ring.spawn
